@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Dict
 from httpx import Client, URL, Response, QueryParams
 from httpx._types import RequestData, RequestFiles
 
@@ -10,7 +10,11 @@ class APIClient:
         """
         self.client = client
 
-    def get(self, url: URL | str, params: QueryParams | None = None) -> Response:
+    def get(
+            self,
+            url: URL | str,
+            params: QueryParams | None = None
+    ) -> Response:
         """
         Выполняет GET-запрос.
 
@@ -38,7 +42,10 @@ class APIClient:
         """
         return self.client.post(url, json=json, data=data, files=files)
 
-    def patch(self, url: URL | str, json: Any | None = None) -> Response:
+    def patch(
+            self, url: URL | str,
+            json: Any | None = None
+    ) -> Response:
         """
         Выполняет PATCH-запрос (частичное обновление данных).
 
@@ -48,7 +55,10 @@ class APIClient:
         """
         return self.client.patch(url, json=json)
 
-    def delete(self, url: URL | str) -> Response:
+    def delete(
+            self,
+            url: URL | str
+    ) -> Response:
         """
         Выполняет DELETE-запрос (удаление данных).
 
