@@ -14,7 +14,10 @@ logger = get_logger("FILES_ASSERTIONS")
 
 
 @allure.step("Check create file response")
-def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
+def assert_create_file_response(
+        request: CreateFileRequestSchema,
+        response: CreateFileResponseSchema
+):
     """
     Проверяет, что ответ на создание файла соответствует запросу.
 
@@ -45,7 +48,10 @@ def assert_file_is_accessible(url: str):
     assert response.status_code == 200, f"Файл недоступен по URL: {url}"
 
 @allure.step("Check file")
-def assert_file(actual: FileSchema, expected: FileSchema):
+def assert_file(
+        actual: FileSchema,
+        expected: FileSchema
+):
     """
     Проверяет, что фактические данные файла соответствуют ожидаемым.
 
