@@ -22,6 +22,7 @@ class Settings(BaseSettings):
         env_file=".env",
         env_file_encoding="utf-8",
         env_nested_delimiter=".",
+        extra='allow',
     )
 
     test_data: TestDataConfig
@@ -34,6 +35,5 @@ class Settings(BaseSettings):
         allure_results_dir.mkdir(exist_ok=True)
 
         return Settings(allure_results_dir=allure_results_dir)
-
 
 settings = Settings.initialize()
