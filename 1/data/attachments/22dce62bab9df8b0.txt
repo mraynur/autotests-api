@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDEzOjI1OjE3Ljc5NjIzNiIsInVzZXJfaWQiOiIzMTU1ZTI3My0yMjlhLTQ5YTAtOGVmZS00NTc5YWY4ZmIwOWYifQ.-pkiryEzjWsBiCHT_z1k1cFQ2x_6v5FRQS55niPC6VI' \
+  -H 'content-length: 468' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Уронить витрина мучительно рис мягкий конструкция кпсс.","courseId":"f23e49ab-da13-4d8c-9a40-b90ddc5293cc","maxScore":56,"minScore":2,"orderIndex":58,"description":"Горький полевой товар лететь сверкающий. Возникновение снимать танцевать научить гулять. Применяться упорно умолять.","estimatedTime":"3 weeks"}'

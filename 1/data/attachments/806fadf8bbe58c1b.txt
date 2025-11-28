@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDEzOjI1OjE2LjAzMzM2NiIsInVzZXJfaWQiOiJjOGVhODc2NC03NDdlLTRjMjItYTNkMS0yMzcwNDI5MjM0MTMifQ.h8cvygkuVSP0YN2frW-v-HualACEfaGWBorZJvqDO1I' \
+  -H 'content-length: 475' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Инструкция белье задержать спичка приходить бетонный четыре.","maxScore":97,"minScore":5,"description":"Решетка порт сходить полевой. Заявление выдержать развитый процесс намерение передо поезд.","estimatedTime":"5 weeks","previewFileId":"6fe81125-d883-46ca-a24f-6c7c472536aa","createdByUserId":"c8ea8764-747e-4c22-a3d1-237042923413"}'

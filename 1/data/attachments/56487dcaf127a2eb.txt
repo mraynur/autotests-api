@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/courses/f6b28aad-d122-4560-aab7-e8d50b17361b' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDEzOjI1OjE3LjIxMDgyNyIsInVzZXJfaWQiOiI0ODEyNmU2Mi0xOGQxLTRlNGYtYTg3My0wOTgxMzFkNzcxMmIifQ.uoagay0dUrrhQkkQqX91RJFoc_PqlOh9fNrMSVA9r2U' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сопровождаться ленинград передо.","maxScore":94,"minScore":1,"description":"Встать зеленый аж потрясти. Редактор вздрогнуть товар пропасть.\nИюнь свежий рота штаб. Секунда мальчишка академик.","estimatedTime":"5 weeks"}'

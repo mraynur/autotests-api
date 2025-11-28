@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://127.0.0.1:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://127.0.0.1:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://127.0.0.1:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://127.0.0.1:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://127.0.0.1:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Уронить витрина мучительно рис мягкий конструкция кпсс.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to f23e49ab-da13-4d8c-9a40-b90ddc5293cc
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 58
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Горький полевой товар лететь сверкающий. Возникновение снимать танцевать научить гулять. Применяться упорно умолять.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDEzOjI1OjIwLjI0NDcyNyIsInVzZXJfaWQiOiI3ZWJjMmI4NS0xZWExLTRiZjUtODIyZS02NDE2MmRiZTYxOTIifQ.-LRaC1eBM3Fzu_JnaOIBrEQpRWQuc7YMsDvyhVesX5c' \
+  -H 'content-length: 602' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Голубчик инфекция падать более хлеб непривычный функция.","maxScore":69,"minScore":20,"description":"Степь угроза неудобно очко за. Идея указанный встать вскинуть. Прежде тревога ложиться вскакивать.\nПорт невозможно понятный исполнять. Задрать спорт обида реклама.","estimatedTime":"2 weeks","previewFileId":"f85621cf-d118-4061-8b00-5af5ca257058","createdByUserId":"7ebc2b85-1ea1-4bf5-822e-64162dbe6192"}'

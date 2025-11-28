@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDEzOjI1OjE5LjAxNjIwMiIsInVzZXJfaWQiOiJmODI1MDBiOS05OWRmLTQ0ZmItYjg1Mi1iMDcxNTM0M2JlN2QifQ.EeaKpNUlty4pYjdK7tB_Q7mtmL7361bxcijgXRt9QhI' \
+  -H 'content-length: 635' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Доставать коричневый выдержать ход спешить заработать пересечь.","maxScore":62,"minScore":28,"description":"Ремень оставить выражаться около. Боец холодно что настать тесно нажать сходить. Грустный мгновение забирать необычный.\nДьявол понятный господь зачем запустить рассуждение.","estimatedTime":"2 weeks","previewFileId":"dce7c051-ad08-41d8-8cb6-1d6f1a6bc40d","createdByUserId":"f82500b9-99df-44fb-b852-b0715343be7d"}'

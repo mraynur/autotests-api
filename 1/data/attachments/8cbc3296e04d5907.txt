@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDEzOjI1OjE5LjY2Mjk4OSIsInVzZXJfaWQiOiJhMDlmNDcyOC1kZDAzLTQzM2YtOWMyYy1kMmYzNWRjNjMwYjIifQ.Fpuc_e43musBcxzIR-OwKLw1jzBoS3aglGedy60DHR0' \
+  -H 'content-length: 459' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Зачем поколение радость подземный экзамен расстройство терапия.","maxScore":77,"minScore":12,"description":"Порт назначить вытаскивать рис район инвалид. Тюрьма рис командующий возможно.","estimatedTime":"7 weeks","previewFileId":"716d47f1-fd39-4ea0-8587-5611030a1e44","createdByUserId":"a09f4728-dd03-433f-9c2c-d2f35dc630b2"}'
