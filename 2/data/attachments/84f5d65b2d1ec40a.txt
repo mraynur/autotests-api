@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDE3OjMxOjMwLjc4MjcwMCIsInVzZXJfaWQiOiI0MTdkMzU0Zi01YjA0LTRjYzMtOWQ5YS00YjJjNWFlMmRiMTAifQ.SeJHH7omn3Dcy0_b39fDHOE7ERiGatq9Z39b-bURZXw' \
+  -H 'content-length: 553' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Исследование скрытый виднеться интеллектуальный висеть пересечь юный.","maxScore":93,"minScore":25,"description":"Виднеться костер жестокий потрясти. Миллиард что салон свежий инвалид. Более уточнить фонарик недостаток валюта зато июнь.","estimatedTime":"10 weeks","previewFileId":"188c55cb-024c-4e41-8d5d-5573d7e7f6d1","createdByUserId":"417d354f-5b04-4cc3-9d9a-4b2c5ae2db10"}'

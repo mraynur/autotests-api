@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDE3OjMxOjMwLjUxMTI1MCIsInVzZXJfaWQiOiIyZWFiZDgwNC02ZmQwLTQ3YWYtYTljMS05NDA4MWU4ZjVkOTIifQ.B-CE3SOmOr2_lrSa-zvxges2Gn3vx88WiowBocoNov4' \
+  -H 'content-length: 465' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Освободить ремень выдержать какой чувство тревога.","courseId":"73eb258e-b865-4fad-b993-e4cff291b36c","maxScore":81,"minScore":5,"orderIndex":26,"description":"Пропаганда ручей заявление неправда механический ныне устройство. Конструкция процесс ложиться разнообразный жестокий.","estimatedTime":"6 weeks"}'

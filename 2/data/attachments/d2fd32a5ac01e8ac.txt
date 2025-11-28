@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDE3OjMxOjI5LjMzNzgzNiIsInVzZXJfaWQiOiJkNjEwYzFmYy00YzI2LTQ3OWMtOTY1Yi00YjI4Y2I5YjBmMTIifQ.WkUqBj44Zol-_CjP0K0cbKJOxiREdJ27Vs6tBz8d_KE' \
+  -H 'content-length: 557' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Достоинство парень опасность манера господь прощение художественный.","maxScore":93,"minScore":11,"description":"Важный карман означать пламя исполнять июнь. Собеседник мрачно славный присесть. Отражение исполнять помолчать зеленый ягода.","estimatedTime":"2 weeks","previewFileId":"a3636e65-b7db-4132-b1cd-18626cbab9c3","createdByUserId":"d610c1fc-4c26-479c-965b-4b28cb9b0f12"}'

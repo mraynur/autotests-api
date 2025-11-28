@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDE3OjMxOjI4LjQzNDE0MSIsInVzZXJfaWQiOiJhZTI4ZTRlMi03M2NlLTRlZGEtOGY4MS1iMTY5MTdhOWZmYWMifQ.obXLSovOZmQSS76jMn80ZfEx4ugB2Xog3eoqhH_z7hU' \
+  -H 'content-length: 546' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Потрясти место указанный выраженный мусор остановить лапа банк.","maxScore":66,"minScore":30,"description":"Рассуждение дремать отдел ремень покидать карман головной умирать. Какой прежде рай советовать. Палка ход дорогой бок инвалид.","estimatedTime":"9 weeks","previewFileId":"f2fccc23-0ada-4cac-9b30-75b2d2ff78fe","createdByUserId":"ae28e4e2-73ce-4eda-8f81-b16917a9ffac"}'

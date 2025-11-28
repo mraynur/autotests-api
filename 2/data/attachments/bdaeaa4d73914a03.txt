@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDE3OjMxOjI3LjAzNDAzMCIsInVzZXJfaWQiOiI3ZjAzZTZlMC1kYzMwLTQwMTItOWI2OC03NzBhMTQ1ZDdlNDcifQ.acU86H9UlivL87nE4_GGmK7atxj8O6X_Gx-OEx4rleY' \
+  -H 'content-length: 566' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Поймать танцевать спешить факультет второй.","maxScore":86,"minScore":21,"description":"Написать расстегнуть песенка ученый. Командование полевой мусор вздрагивать оборот достоинство. Сомнительный фонарик запустить космос. Лапа магазин анализ.","estimatedTime":"4 weeks","previewFileId":"0b404e0e-433b-442d-a9df-7ff21384daae","createdByUserId":"7f03e6e0-dc30-4012-9b68-770a145d7e47"}'

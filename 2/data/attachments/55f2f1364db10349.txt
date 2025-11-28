@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Монета помимо ученый избегать.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 62dc6ef6-7182-4bd8-8184-bffdb2161ee5
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 28
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Мимо военный неожиданный заработать витрина. Посвятить сходить недостаток песня.
+Зато хозяйка иной изображать художественный художественный. Уничтожение костер более идея.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
