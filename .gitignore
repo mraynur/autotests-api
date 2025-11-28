@@ -1,8 +1,12 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.venv/
+# pycharm
 .idea/
 
+# python
+.pytest_cache/
+.venv/
+__pycache__/
+*.pyc
+
+# allure
 allure-results/
 allure-report/
