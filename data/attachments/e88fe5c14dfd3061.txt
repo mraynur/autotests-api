@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEwOjQyOjIzLjIwOTQ0OSIsInVzZXJfaWQiOiJkMmJiM2FjMS1kNjlkLTQ3ZmMtYTUwMS0yNjIzMGUyOGRhY2IifQ.GadTgsssUmGseKi99GMRCQ4963CXJNDX3HjXA7KoAsI' \
+  -H 'content-length: 539' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Увеличиваться командующий миллиард нервно армейский.","maxScore":50,"minScore":25,"description":"Поезд пламя строительство помолчать нервно отметить радость. Кузнец опасность прежде ягода теория господь. Ботинок через шлем крыса.","estimatedTime":"3 weeks","previewFileId":"2173bbd7-c35b-4b25-ace1-7d86d23957a9","createdByUserId":"d2bb3ac1-d69d-47fc-a501-26230e28dacb"}'
