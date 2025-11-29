@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjIxLjAyOTkzNyIsInVzZXJfaWQiOiI0M2FlMjM2OS1iNjQ4LTQ5OTUtYTQyYS1hYjQ5ZmQ3ZGQyZTEifQ.NsWvnjDWJq0bqjkcKN3cjO8QAtbiDlvcIXOyo-dSG7s' \
+  -H 'content-length: 611' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ложиться ягода означать одиннадцать запустить бак коммунизм.","courseId":"68e803bf-dd5c-4bff-9fc3-c648b7d97412","maxScore":65,"minScore":8,"orderIndex":50,"description":"Войти привлекать столетие около низкий желание совещание протягивать. Сохранять холодно грудь решение упорно скользить песня.\nПостоянный триста советовать. Необычный способ термин издали.","estimatedTime":"8 weeks"}'

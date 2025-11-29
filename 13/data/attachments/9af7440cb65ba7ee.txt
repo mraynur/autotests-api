@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjIwLjQ0MDQyNiIsInVzZXJfaWQiOiI4NDVkYzk1Ni02OTg1LTQwNzAtODVkOS1lZDVjYmJjY2VlZjMifQ.SGjInaTCc8-GPhb0Wuh9FcWtBpv8ZUl5c0Ywlch4lUg' \
+  -H 'content-length: 586' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Изредка изучить валюта исследование функция падать ложиться.","courseId":"db297493-d459-4556-a9c2-baad0b67187e","maxScore":88,"minScore":22,"orderIndex":1,"description":"Налоговый выраженный обида. Угроза потом секунда правление нервно.\nТемнеть назначить другой более приятель. Спешить спешить пища валюта сопровождаться пробовать что понятный.","estimatedTime":"1 weeks"}'

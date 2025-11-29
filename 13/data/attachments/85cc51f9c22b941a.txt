@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjIxLjY1ODc4MCIsInVzZXJfaWQiOiIyNzJlODEzMy0zMTM1LTRjMjktOTkwNy0wMzU5YjJmYzIyYmUifQ.z7KtOb2bAi6mNb6ThwbCyWWJdpwxW8x8H2s8DSgVPvU' \
+  -H 'content-length: 497' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Зеленый цепочка ответить покидать.","maxScore":70,"minScore":8,"description":"Очутиться свежий поговорить лапа счастье.\nНарод конструкция танцевать металл роса чем. Кузнец сходить головка картинка выкинуть.","estimatedTime":"8 weeks","previewFileId":"5b92f58f-0a2b-4278-a2f6-68f7e3d81641","createdByUserId":"272e8133-3135-4c29-9907-0359b2fc22be"}'

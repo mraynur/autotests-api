@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjIyLjIzOTIzMCIsInVzZXJfaWQiOiIwMWU4MzkzMS1kY2YzLTRlYjItOGVlZi00NmNhZDQ1ODEwMWMifQ.dxqP8gN9jVZhI-Tyv4wVTbPvomvNzfTg-U8olUzchT8' \
+  -H 'content-length: 669' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Командование боец картинка рабочий наслаждение способ ложиться.","maxScore":55,"minScore":12,"description":"Сынок более житель коробка болото. Армейский цель ручей угроза. Неожиданный ремень гулять юный аллея очко счастье художественный.\nУгол команда адвокат доставать. Инвалид столетие беспомощный.","estimatedTime":"3 weeks","previewFileId":"8fcc31a9-2522-4784-950f-c19f1309ea79","createdByUserId":"01e83931-dcf3-4eb2-8eef-46cad458101c"}'

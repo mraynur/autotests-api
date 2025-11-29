@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjIwLjQ0MDQyNiIsInVzZXJfaWQiOiI4NDVkYzk1Ni02OTg1LTQwNzAtODVkOS1lZDVjYmJjY2VlZjMifQ.SGjInaTCc8-GPhb0Wuh9FcWtBpv8ZUl5c0Ywlch4lUg' \
+  -H 'content-length: 559' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Да уточнить бегать белье приятель.","maxScore":93,"minScore":22,"description":"Холодно развернуться потрясти более.\nЧто изображать заработать мальчишка пропаганда затянуться. Недостаток трубка хлеб выражаться. Издали товар место да витрина.","estimatedTime":"9 weeks","previewFileId":"5d80ece3-d565-4e39-b97b-a0feec36dc2d","createdByUserId":"845dc956-6985-4070-85d9-ed5cbbcceef3"}'

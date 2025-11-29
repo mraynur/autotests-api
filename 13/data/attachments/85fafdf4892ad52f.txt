@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjIxLjAyOTkzNyIsInVzZXJfaWQiOiI0M2FlMjM2OS1iNjQ4LTQ5OTUtYTQyYS1hYjQ5ZmQ3ZGQyZTEifQ.NsWvnjDWJq0bqjkcKN3cjO8QAtbiDlvcIXOyo-dSG7s' \
+  -H 'content-length: 651' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Спешить решение мотоцикл сбросить умирать бок.","maxScore":51,"minScore":10,"description":"Скрытый намерение уточнить космос совещание. Госпожа помимо заложить холодно прелесть триста.\nНепривычный плавно полевой социалистический провал гулять освобождение. Командующий зачем потом оборот.","estimatedTime":"9 weeks","previewFileId":"b301507e-e283-40e8-91b5-71abc3b1e192","createdByUserId":"43ae2369-b648-4995-a42a-ab49fd7dd2e1"}'

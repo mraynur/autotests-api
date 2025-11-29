@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjE4LjY0NjE0MCIsInVzZXJfaWQiOiIxMGM2MjA3ZS1kZDhjLTQ3YWEtODA0Mi1mMjYyYjc1YjZlZTkifQ.QBV1QH_tFP-tJ3TAtyeNgAFDrHkLPI98-T-uvUTCnD4' \
+  -H 'content-length: 508' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вскинуть вытаскивать космос близко некоторый дурацкий доставать.","maxScore":76,"minScore":24,"description":"Вскинуть хотеть бак снимать.\nЛевый промолчать сохранять направо. Дыхание слишком полностью висеть шлем.","estimatedTime":"7 weeks","previewFileId":"64d8c87f-1943-4e6c-921b-1dc0761f2395","createdByUserId":"10c6207e-dd8c-47aa-8042-f262b75b6ee9"}'

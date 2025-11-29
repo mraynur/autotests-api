@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjE5LjIyODc5OCIsInVzZXJfaWQiOiIwZTAzYTE2Yi0zOGY3LTQ2ZTItOWZkYy1iZDJlMmM0YWFjNWIifQ.IEpsZwZwcIx0WQtqHSDieATGb-rZ8yHU__Hj6sGJIwM' \
+  -H 'content-length: 532' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плод пятеро видимо освобождение выразить космос.","maxScore":51,"minScore":28,"description":"Девка один зачем уточнить плод очко. Более голубчик зеленый. Валюта ночь плясать песенка ночь ребятишки. Порядок механический холодно.","estimatedTime":"7 weeks","previewFileId":"ce247ace-baaf-44b8-9f73-a8717d8ef26d","createdByUserId":"0e03a16b-38f7-46e2-9fdc-bd2e2c4aac5b"}'

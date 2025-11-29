@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjMzOjE5LjgxMDkwOCIsInVzZXJfaWQiOiJiMGY5ZDI0MC0xNzM4LTQxNzItYTQ1Yi1jYjZiMzc5NWY1ZWUifQ.bLBdNdr7eZy3qzgJdN5MZCFbNSPDcIjYZG8r_F3Wl_s' \
+  -H 'content-length: 540' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Деньги покидать мальчишка невыносимый советовать засунуть угол болото.","maxScore":55,"minScore":2,"description":"Коллектив механический демократия академик бегать металл. Назначить выгнать намерение витрина вообще парень место.","estimatedTime":"4 weeks","previewFileId":"dabef7d2-4be1-49a4-a9a1-ed59525306d3","createdByUserId":"b0f9d240-1738-4172-a45b-cb6b3795f5ee"}'
