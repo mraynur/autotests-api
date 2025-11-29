@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjM1LjA0Nzc2MSIsInVzZXJfaWQiOiJkOWE0YzNiNC05NzM4LTRlZDEtOGU5Yi0wNjY0MDNlZGM1NGIifQ.981OUpRdrR4iukP_tno29Pl1unQ5HZJJ5fTWsh2QhSI' \
+  -H 'content-length: 446' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Армейский спорт район непривычный вскинуть а.","maxScore":82,"minScore":26,"description":"Цепочка степь жестокий упорно что терапия. Угроза освободить совещание ягода палка важный.","estimatedTime":"8 weeks","previewFileId":"2a577ca3-c146-426d-8c4d-9d6a5b939c3a","createdByUserId":"d9a4c3b4-9738-4ed1-8e9b-066403edc54b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjMxLjk5MDE5NiIsInVzZXJfaWQiOiI2YWJhOGFlZS1iODc5LTRkM2ItYWRhMS1lMDU0NTVhNWNkZDgifQ.ddLDSfljAFGftyEkUZFkhItMIVrerpoIlNHjfJYSQ2g' \
+  -H 'content-length: 554' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Результат факультет волк доставать.","maxScore":54,"minScore":12,"description":"Неправда кольцо хозяйка устройство командир поезд. Мучительно новый господь.\nРедактор район болото ложиться карман более. Райком низкий рассуждение покидать.","estimatedTime":"8 weeks","previewFileId":"68a8c09a-56e3-4857-a6cd-91fab73aef46","createdByUserId":"6aba8aee-b879-4d3b-ada1-e05455a5cdd8"}'

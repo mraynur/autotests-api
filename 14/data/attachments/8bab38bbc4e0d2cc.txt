@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjM0LjM5NjMwNiIsInVzZXJfaWQiOiJmNzgzMWZjZS1kZmVmLTQ5YTAtYjQ4NC0wYzNiOWEwMDk1ZTcifQ.0YXFrq7SJ8bplRj1bm7f5zoD0XhTsoe_qQ8MvaFwOlg' \
+  -H 'content-length: 527' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Новый прежний порода передо отъезд растеряться художественный умолять.","maxScore":90,"minScore":8,"description":"Упорно новый потрясти. Порт пересечь вообще результат бочок смеяться плод. Монета пламя табак мера приличный.","estimatedTime":"9 weeks","previewFileId":"8e0b1c2f-147a-4727-b51b-939591688bdf","createdByUserId":"f7831fce-dfef-49a0-b484-0c3b9a0095e7"}'

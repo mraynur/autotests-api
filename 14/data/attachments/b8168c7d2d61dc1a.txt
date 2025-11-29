@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjMzLjgxMDUzNyIsInVzZXJfaWQiOiIzMWEyNGEzOS0xZDBlLTQ3N2EtYTUwMS1iMDIyMDE2MDNmMGUifQ.LBSZUeW2FjfxaVSQI5QzBDiOzHRQ7L8h4t9kXmbtPR4' \
+  -H 'content-length: 604' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Коммунизм страсть степь мгновение.","maxScore":87,"minScore":17,"description":"Запустить заявление зима космос. Поставить блин промолчать растеряться. Слишком уточнить проход премьера пропадать построить изба.\nМучительно степь постоянный спичка солнце а находить.","estimatedTime":"10 weeks","previewFileId":"ce7e1ce6-21d8-4430-9b77-eccc2fe4d2ff","createdByUserId":"31a24a39-1d0e-477a-a501-b02201603f0e"}'

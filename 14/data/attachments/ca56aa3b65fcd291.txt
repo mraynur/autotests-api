@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjMyLjU4MDI2OSIsInVzZXJfaWQiOiIyYmVmOTY4Yi0wNzZhLTRkMTctOTJjZi05NmYyNGZhYTgyZTMifQ.Xb0jCQjmeWgoJFtCSdDiy_Y-M0tNc3WVLeds8FWIslA' \
+  -H 'content-length: 628' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плясать возбуждение научить кидать возникновение.","maxScore":52,"minScore":2,"description":"Четко возможно пастух монета художественный лапа дружно. Покидать господь мрачно необычный.\nПривлекать трясти сынок ягода предоставить сынок лететь. Заявление разнообразный отметить.","estimatedTime":"5 weeks","previewFileId":"cc4353bb-2fb8-48c5-8984-554f489709f2","createdByUserId":"2bef968b-076a-4d17-92cf-96f24faa82e3"}'

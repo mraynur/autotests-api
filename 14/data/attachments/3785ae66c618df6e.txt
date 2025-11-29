@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8a8509b3-4fd6-4782-95fd-4777487e4ccd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjMyLjU4MDI2OSIsInVzZXJfaWQiOiIyYmVmOTY4Yi0wNzZhLTRkMTctOTJjZi05NmYyNGZhYTgyZTMifQ.Xb0jCQjmeWgoJFtCSdDiy_Y-M0tNc3WVLeds8FWIslA' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Задрать один порт посидеть ставить тута.","maxScore":50,"minScore":2,"description":"Конструкция головной рис руководитель точно. Посидеть уничтожение некоторый слать.","estimatedTime":"6 weeks"}'

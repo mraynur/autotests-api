@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjMzLjE3MjEwMiIsInVzZXJfaWQiOiJlMzQ0OWE0OS0wZDYyLTRjYmMtYTc2NC0zZWRjNDQ4ZjE2NWYifQ.OymFsp-G2W4E8bLlXw9mkIs_5rU3_NC_uElW6DzKpc4' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Бетонный крутой парень бегать.","maxScore":69,"minScore":7,"description":"Естественный издали важный исследование единый. Угроза за растеряться оборот еврейский научить.","estimatedTime":"3 weeks","previewFileId":"65d134b6-235f-4a07-8655-f5e3c9a1f686","createdByUserId":"e3449a49-0d62-4cbc-a764-3edc448f165f"}'

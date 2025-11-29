@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjM4OjMxLjQwODU2OCIsInVzZXJfaWQiOiI3Y2YyMDk0Mi03ZGE2LTQxYTYtYWQzZS0yODBjMThjODk5YTcifQ.07Fo7EP7-hUzy7WO7lbvo5t6f-4kBltHt2bae23WCoo' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Нервно механический механический дыхание результат.","maxScore":68,"minScore":2,"description":"Наслаждение командир мучительно жестокий витрина смертельный.","estimatedTime":"1 weeks","previewFileId":"9cc57e15-209a-4027-850c-988bce282b63","createdByUserId":"7cf20942-7da6-41a6-ad3e-280c18c899a7"}'
