@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/d2881cb1-ff74-4a0f-a69a-e11ee191aca8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM4LjIyNzY2NyIsInVzZXJfaWQiOiI3Njc1NGI3NS1kMDJjLTRkYTAtYjZmZC02YTQ5ZmQyYjczODEifQ.lH0wqzSeadIMZUeBYG5U3ySiRSnGHBpneh8-efZk3PY' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Невыносимый передо исполнять.","maxScore":64,"minScore":2,"orderIndex":15,"description":"Вряд близко блин самостоятельно коричневый. Миф фонарик посидеть приятель сустав картинка заложить карандаш.","estimatedTime":"3 weeks"}'

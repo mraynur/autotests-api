@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM4LjgxODQ5OSIsInVzZXJfaWQiOiI0MTE2MTMyZi0zM2Q0LTRmOGYtYmVjNC00ZDcwNzdmZWMwMGYifQ.bssRHxaDtU-x7Shci9PpodbYXQ8r4SGp5xAPbvuyvks' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Смеяться печатать решетка жить настать число.","courseId":"a29298a7-6483-4f19-9720-060bc7b2bdaa","maxScore":60,"minScore":29,"orderIndex":96,"description":"Настать медицина госпожа. Ложиться природа пропадать дурацкий.","estimatedTime":"6 weeks"}'

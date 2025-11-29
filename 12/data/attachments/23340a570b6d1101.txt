@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM4LjIyNzY2NyIsInVzZXJfaWQiOiI3Njc1NGI3NS1kMDJjLTRkYTAtYjZmZC02YTQ5ZmQyYjczODEifQ.lH0wqzSeadIMZUeBYG5U3ySiRSnGHBpneh8-efZk3PY' \
+  -H 'content-length: 632' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Инвалид выражаться место инвалид прошептать уничтожение конференция.","maxScore":93,"minScore":27,"description":"Зеленый иной фонарик плясать войти тусклый хозяйка. Выражение пасть каюта редактор заведение механический. Некоторый задержать манера доставать ручей тревога ученый.","estimatedTime":"1 weeks","previewFileId":"a01f3cf9-9d0b-4cbb-986e-20d45edde836","createdByUserId":"76754b75-d02c-4da0-b6fd-6a49fd2b7381"}'

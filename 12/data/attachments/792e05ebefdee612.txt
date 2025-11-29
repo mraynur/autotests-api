@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM4LjgxODQ5OSIsInVzZXJfaWQiOiI0MTE2MTMyZi0zM2Q0LTRmOGYtYmVjNC00ZDcwNzdmZWMwMGYifQ.bssRHxaDtU-x7Shci9PpodbYXQ8r4SGp5xAPbvuyvks' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выдержать возможно прелесть.","maxScore":88,"minScore":8,"description":"Дошлый расстегнуть потянуться нажать мимо.","estimatedTime":"8 weeks","previewFileId":"aa98a4f3-06e8-44bb-af8e-ef66ad37878b","createdByUserId":"4116132f-33d4-4f8f-bec4-4d7077fec00f"}'

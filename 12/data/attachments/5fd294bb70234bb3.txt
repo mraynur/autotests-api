@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjQwLjAzODk2MSIsInVzZXJfaWQiOiI0ZWFkZmRlZC04MmI4LTQ4M2UtYWFhOC02MWFjMTkxYWI0ZmMifQ.LVTJYvZ8WMnD_ZtVOxf8LQQgcWBYxH346Gp2i3hQNuA' \
+  -H 'content-length: 608' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выражение космос вздрогнуть.","maxScore":88,"minScore":19,"description":"Вывести ремень смертельный очутиться встать задрать какой. Четыре находить палец порт опасность теория запеть печатать.\nЗато новый функция избегать затянуться уронить. Сопровождаться июнь угол.","estimatedTime":"1 weeks","previewFileId":"05433312-f270-4158-9dc6-a5f669d4e930","createdByUserId":"4eadfded-82b8-483e-aaa8-61ac191ab4fc"}'

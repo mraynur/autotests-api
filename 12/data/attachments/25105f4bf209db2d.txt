@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM5LjQ1NTg2NiIsInVzZXJfaWQiOiIwNWI5YTFiMC1kODUzLTQ5ZGItYjUxMC03MDRlZjJiODM3ZjQifQ._qI2Ldq1847M0c8BBQOLb4oW4jyUahP4X-uRoGpJZo8' \
+  -H 'content-length: 544' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Спешить радость возникновение задрать дружно мелькнуть.","courseId":"96f057b2-2a9e-4ced-a76c-223b2cc9a058","maxScore":88,"minScore":30,"orderIndex":79,"description":"Неправда выражаться идея. Настать плавно неудобно изображать солнце плясать головка.\nМеталл спорт ход появление гулять кожа. Бочок какой военный кпсс кузнец.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/3b397b63-5559-453c-84c6-69bdd6544e85
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/3b397b63-5559-453c-84c6-69bdd6544e85
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:90 Check update course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Цепочка инфекция засунуть упорно цвет порт.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 85
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Слишком опасность плавно потом один. Тревога тусклый похороны за витрина потянуться район.
+Еврейский изучить художественный князь угроза хотеть. Собеседник ночь порода ведь исполнять.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

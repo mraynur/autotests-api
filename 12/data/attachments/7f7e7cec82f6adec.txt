@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM5LjQ1NTg2NiIsInVzZXJfaWQiOiIwNWI5YTFiMC1kODUzLTQ5ZGItYjUxMC03MDRlZjJiODM3ZjQifQ._qI2Ldq1847M0c8BBQOLb4oW4jyUahP4X-uRoGpJZo8' \
+  -H 'content-length: 623' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Школьный еврейский кидать спалить возбуждение парень коробка терапия.","maxScore":83,"minScore":11,"description":"Инфекция сохранять шлем порт. Угодный ночь плод ремень четко. Неожиданно добиться интеллектуальный ведь. Совещание возбуждение выражаться темнеть рабочий степь.","estimatedTime":"8 weeks","previewFileId":"d828156f-084d-4ed0-ae3d-0272ae22dac4","createdByUserId":"05b9a1b0-d853-49db-b510-704ef2b837f4"}'

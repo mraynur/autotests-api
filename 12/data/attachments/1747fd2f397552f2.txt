@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3b397b63-5559-453c-84c6-69bdd6544e85' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM3LjAwMjU3MyIsInVzZXJfaWQiOiJhYjA1ZWRiZC1jMjI0LTQyYTgtYjY2MS1lZDMzMjlmMDMwMDUifQ.qbIXymcPBSFybAuZEqDa6cn3KCyc7UeiuIeSN1aKXTo' \
+  -H 'content-length: 503' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Цепочка инфекция засунуть упорно цвет порт.","maxScore":85,"minScore":5,"description":"Слишком опасность плавно потом один. Тревога тусклый похороны за витрина потянуться район.\nЕврейский изучить художественный князь угроза хотеть. Собеседник ночь порода ведь исполнять.","estimatedTime":"7 weeks"}'

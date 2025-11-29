@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM2LjQyMDY2NiIsInVzZXJfaWQiOiIyODE3N2ZjMS0zNjNiLTQ3MDYtOWZlZS04MmQ1ZDlhM2Y1NWYifQ.3RxEWN7Wlgsu_GdQTRmQvdmyWszMXnMDXxdvIFBfWHg' \
+  -H 'content-length: 492' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Товар второй успокоиться плод поздравлять.","maxScore":69,"minScore":22,"description":"Выдержать салон чувство дыхание. Советовать левый исследование факультет. Грудь умолять цель бабочка близко отметить.","estimatedTime":"2 weeks","previewFileId":"ba4ee5ab-cfee-4e15-a657-271c31ad2d45","createdByUserId":"28177fc1-363b-4706-9fee-82d5d9a3f55f"}'

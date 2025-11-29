@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjI5OjM1Ljg0MjA1OCIsInVzZXJfaWQiOiJhYjg0MGM4OS1lMmU2LTRlYzktODg3NC0zNDJkOWRiZTMwZGMifQ.FIAXWLY9JP6kF-qtrBGCRQay0XjIQ7vW_rIRF-kfz58' \
+  -H 'content-length: 653' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вперед ставить ученый художественный редактор.","maxScore":94,"minScore":30,"description":"Деловой слишком ребятишки художественный сынок парень военный. Призыв очередной плавно кожа понятный. Спичка доставать рабочий угроза.\nКоллектив витрина угроза. Направо разнообразный блин виднеться.","estimatedTime":"10 weeks","previewFileId":"c79665c6-db65-449b-b4e6-925f46caf755","createdByUserId":"ab840c89-e2e6-4ec9-8874-342d9dbe30dc"}'
