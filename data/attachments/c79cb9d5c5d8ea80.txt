@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEwOjUyOjM5LjY1MDUxMCIsInVzZXJfaWQiOiJlMmNiMjU4MC00ZDM1LTQ4YjgtYWY4OS1iN2NkZTdlMjljMzMifQ.BVeVk5Fa4DN-0jdvrIXFzH3aqEVaoWm5DVpPJEdl0B8' \
+  -H 'content-length: 639' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Полюбить кожа указанный назначить запретить поздравлять.","maxScore":80,"minScore":24,"description":"Один пространство инструкция рай налоговый снимать оборот.\nСлать дальний манера факультет коллектив дошлый ручей вскакивать. Военный коммунизм пропасть райком. Дорогой сынок видимо.","estimatedTime":"9 weeks","previewFileId":"454244fb-929d-45f7-8427-75ce0cc4f759","createdByUserId":"e2cb2580-4d35-48b8-af89-b7cde7e29c33"}'

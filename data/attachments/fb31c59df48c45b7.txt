@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEwOjUyOjM3LjI4MTUxOCIsInVzZXJfaWQiOiIwYTdiMjUyOC1hMjBhLTQ5MDItODdjOS1kMWVmZWIwZTg3OTYifQ.VbKIdN9DQd6yy1_obP7k4aRVNyocmPGMBYxHObM0Qi8' \
+  -H 'content-length: 482' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Боец бак светило армейский научить магазин.","maxScore":60,"minScore":4,"description":"Банк посидеть расстройство даль нервно. Плясать недостаток серьезный порт задрать. Свежий цель шлем растеряться.","estimatedTime":"5 weeks","previewFileId":"e395683a-1177-4172-9f40-767b02080054","createdByUserId":"0a7b2528-a20a-4902-87c9-d1efeb0e8796"}'

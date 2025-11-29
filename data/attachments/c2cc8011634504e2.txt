@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/358f5a98-da6e-47bc-bd0a-409379aa8b85' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEwOjUyOjM3LjU1MzgyMiIsInVzZXJfaWQiOiJhYTRlMzg5OC01YmEzLTQwOTgtODJmMi00ZmMyMzExMTM2ZDYifQ.clGjYHCV9Q8ttUDADLPf3fOWl9fd0KmBbqjnXwJ7tRs' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Коричневый смеяться набор конференция растеряться сходить.","maxScore":100,"minScore":1,"description":"Народ через выгнать наткнуться. Дурацкий невыносимый зато. Рабочий ложиться господь решение спорт термин скользить.","estimatedTime":"1 weeks"}'
