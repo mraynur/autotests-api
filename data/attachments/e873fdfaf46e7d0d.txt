@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjA3OjA2LjMxMDYxNCIsInVzZXJfaWQiOiI3ZWZhODZiZC1lNjM1LTQ1NjMtYmYzOC1iOTQ2NDFjZGQ1OTgifQ.VBb_JojQw1jgeGXSwCO97JPwwnOE8zHCtuyWrz42Ab8' \
+  -H 'content-length: 580' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Передо потрясти неожиданно сомнительный наслаждение неправда.","maxScore":92,"minScore":28,"description":"Костер ленинград банк. Результат выраженный протягивать страсть экзамен тревога отъезд бетонный.\nДобиться интеллектуальный пламя песенка банда.","estimatedTime":"3 weeks","previewFileId":"861b9ee7-ddcf-4f85-aab9-727bbe33283c","createdByUserId":"7efa86bd-e635-4563-bf38-b94641cdd598"}'

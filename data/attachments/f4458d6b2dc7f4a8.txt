@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c3c2cb1d-d895-451a-8779-cfbf0d3b130b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjA3OjA0LjA1NTg0MSIsInVzZXJfaWQiOiIxZWMxMTNiNS1mNjFiLTRlOTktOTBlMy1hZjQwMzI3NzBiOWYifQ.P9xVs7HFX_-Tn5tIwlKkpE_hz0GMC-oadrI__vZ6NIQ' \
+  -H 'content-length: 473' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Порт следовательно эпоха отъезд затянуться спешить дружно.","maxScore":53,"minScore":7,"description":"Витрина деньги запустить неожиданно. Четко предоставить миф плод добиться. Естественный холодно дальний зачем. Премьера покинуть вариант слишком отдел.","estimatedTime":"10 weeks"}'

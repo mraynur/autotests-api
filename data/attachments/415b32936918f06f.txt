@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjA3OjA0LjA1NTg0MSIsInVzZXJfaWQiOiIxZWMxMTNiNS1mNjFiLTRlOTktOTBlMy1hZjQwMzI3NzBiOWYifQ.P9xVs7HFX_-Tn5tIwlKkpE_hz0GMC-oadrI__vZ6NIQ' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Цель смеяться покидать недостаток передо адвокат.","maxScore":100,"minScore":19,"description":"Народ потянуться выкинуть пространство новый неправда.","estimatedTime":"6 weeks","previewFileId":"604ee566-f030-4db6-95cf-cf0ba76afac7","createdByUserId":"1ec113b5-f61b-4e99-90e3-af4032770b9f"}'
