@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -37,34 +37,54 @@ jobs:
           JWT_REFRESH_TOKEN_EXPIRE: 5184000
         run: uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
 
-      - name: Install dependencies
+      - name: Install dependencies for test framework
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run API tests with pytest and generate Allure results
+      - name: Run API tests
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2
+        continue-on-error: true
+
+      - name: Upload Allure results as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
+          retention-days: 10
+
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Download Allure results artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
 
       - name: Get Allure history
-        uses: actions/checkout@v6
-        if: always()
+        uses: actions/checkout@v4
         continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Generates Allure Report with history
+      - name: Generate Allure Report
         uses: simple-elf/allure-report-action@master
-        if: always()
+        id: allure-report
         with:
           allure_results: allure-results
-          allure_history: allure-history
+          gh_pages: gh-pages
+          report_dir: allure-report
 
       - name: Deploy report to Github Pages
-        if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-report
