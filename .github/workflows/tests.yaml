@@ -57,10 +57,11 @@ jobs:
   publish-report:
     needs: run-tests
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
       - name: Download Allure results artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v4
         with:
           name: allure-results
           path: allure-results
@@ -77,11 +78,11 @@ jobs:
         if: always()
         with:
           allure_results: allure-results
-          allure_history: allure_history
+          allure_report: allure-report
 
       - name: Deploy report to Github Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-report
