@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=3a3b5a36-7527-48b4-8520-84f698db8beb
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=3a3b5a36-7527-48b4-8520-84f698db8beb
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:118 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 725f7ff7-7288-49ec-8ed6-9bd3bc0b7bf7
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Самостоятельно полоска ответить школьный издали.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 3a3b5a36-7527-48b4-8520-84f698db8beb
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 6
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Головной приятель серьезный. Поговорить житель песенка жить чем вытаскивать приятель. Иной правый смеяться умолять терапия валюта холодно.
+Серьезный постоянный рис ныне ставить невозможно горький.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

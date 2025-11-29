@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEwOjQ4OjIzLjA3NjIxNyIsInVzZXJfaWQiOiI2ODdmYzIxMC0zNjFlLTRiNmQtOWU5YS00OGFlOTQ2NTE1YzMifQ.4SyysjDh9zaxwlEkcVR3je3fXAug9uBW-EzbpyMgk9c' \
+  -H 'content-length: 605' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Самостоятельно полоска ответить школьный издали.","courseId":"3a3b5a36-7527-48b4-8520-84f698db8beb","maxScore":62,"minScore":14,"orderIndex":6,"description":"Головной приятель серьезный. Поговорить житель песенка жить чем вытаскивать приятель. Иной правый смеяться умолять терапия валюта холодно.\nСерьезный постоянный рис ныне ставить невозможно горький.","estimatedTime":"7 weeks"}'

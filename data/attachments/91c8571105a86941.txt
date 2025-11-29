@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEwOjQ4OjIxLjE5NjMyNiIsInVzZXJfaWQiOiJlN2E1M2QwNi0xMDA1LTRiMWQtOTBjNy00MDAxZjQ2MzkxMDUifQ.zOeZ2OdSHyEuVDs2OW-vuChro6G_8Nnz_1xRWQfbmoU' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мягкий изба мальчишка валюта ребятишки.","maxScore":91,"minScore":10,"description":"Сверкать спорт смелый поймать интернет. Палец равнодушный какой полностью сынок что через бок.","estimatedTime":"8 weeks","previewFileId":"f867d908-b935-42ae-8ff5-ece0f447a660","createdByUserId":"e7a53d06-1005-4b1d-90c7-4001f4639105"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEwOjQ4OjIwLjAwODY1MyIsInVzZXJfaWQiOiJkMjlmODQxMC01YWFmLTRiMjEtOTIzMS1hZGUwMzk5MjdkYmUifQ.CV3X4TUow3Kkk4a3SUk7XWywnznLqVEcD8t3PLMJ0S4' \
+  -H 'content-length: 649' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Деньги заработать собеседник лететь ложиться выкинуть направо.","maxScore":64,"minScore":27,"description":"Засунуть неожиданно увеличиваться казнь уточнить товар художественный. Миллиард исполнять редактор командир наткнуться. Коллектив зарплата песенка помолчать цель слишком зарплата.","estimatedTime":"8 weeks","previewFileId":"ebcca1f5-72a4-43a2-9b48-61b3e17285b7","createdByUserId":"d29f8410-5aaf-4b21-9231-ade039927dbe"}'
