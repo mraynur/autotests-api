@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjAzOjQ0LjM2OTYzNyIsInVzZXJfaWQiOiJjODI2NjE1Zi05MmI3LTRiYWYtODZmNS0yZTczZGU5MzE0ODQifQ.xdryZL_YFaWDVC3AEM2dP_er04yI2ntQYbGNktvu0xE' \
+  -H 'content-length: 587' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Понятный правый привлекать полоска эпоха спорт.","maxScore":61,"minScore":28,"description":"Светило багровый мелочь четко. Угроза протягивать редактор мучительно дружно провал.\nИзбегать торопливый совет район набор советовать. Столетие понятный лететь да.","estimatedTime":"5 weeks","previewFileId":"277cdac4-60ec-4329-9360-6c91452a0aae","createdByUserId":"c826615f-92b7-4baf-86f5-2e73de931484"}'

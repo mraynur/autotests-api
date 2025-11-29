@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjAzOjQzLjE0MzQ4OSIsInVzZXJfaWQiOiI3MjBhZDFmZi01ZmRkLTQwNWQtYTUzMy01MDgyMzc2NjAwMmIifQ.yz-T_CTmqFdwdNPDKkUJbgTTIzTAQLPTWnlg8bwnVlM' \
+  -H 'content-length: 540' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Приятель нож выражение исследование идея иной о.","maxScore":71,"minScore":18,"description":"Человечек смертельный беспомощный светило вскинуть возбуждение картинка. Эффект смертельный смертельный разуметься. Житель лететь место.","estimatedTime":"3 weeks","previewFileId":"5bf01615-c15d-4166-a490-2512ed32a48e","createdByUserId":"720ad1ff-5fdd-405d-a533-50823766002b"}'

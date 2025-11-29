@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjAzOjQxLjk3MzI4MSIsInVzZXJfaWQiOiJkZjQ1ZjhjYy1hNDczLTQzODktODU5My0zMTk3MmE2YmI3NTYifQ.SKMtMQu87p8aRp0ZnY_qesT8ottYwEKwbcEiZxIkORw' \
+  -H 'content-length: 561' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ботинок премьера неудобно тревога роса социалистический запретить.","maxScore":89,"minScore":7,"description":"Лапа проход тяжелый белье прелесть применяться. Плясать факультет при экзамен космос манера зарплата. Монета адвокат кпсс миф зато.","estimatedTime":"1 weeks","previewFileId":"1875b887-601e-4bd1-aa5f-018f7aca83ae","createdByUserId":"df45f8cc-a473-4389-8593-31972a6bb756"}'

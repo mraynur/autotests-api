@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjAzOjQ0LjM2OTYzNyIsInVzZXJfaWQiOiJjODI2NjE1Zi05MmI3LTRiYWYtODZmNS0yZTczZGU5MzE0ODQifQ.xdryZL_YFaWDVC3AEM2dP_er04yI2ntQYbGNktvu0xE' \
+  -H 'content-length: 509' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Заплакать выражаться второй ярко означать результат смертельный.","courseId":"9bbd27ae-16fd-47b5-bc4d-7cb9e50e6f71","maxScore":76,"minScore":19,"orderIndex":36,"description":"При возможно господь успокоиться головка. Домашний эффект упор домашний роса. Приличный пространство солнце вздрагивать темнеть.","estimatedTime":"3 weeks"}'

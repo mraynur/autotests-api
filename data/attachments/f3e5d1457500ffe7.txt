@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjAzOjQwLjIwNTQ0NiIsInVzZXJfaWQiOiI2MDY1NzY3ZC05OTZhLTQwNTctODAwZC1iNzBiNDlhMTYzM2YifQ.177Ks8AvQ1DTRMHdDX69gzKSQLWOu3kst-lb-fsyPO4' \
+  -H 'content-length: 522' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Задержать народ опасность отражение.","maxScore":94,"minScore":5,"description":"Посидеть палка смелый коричневый подробность.\nРоскошный левый зарплата секунда.\nВообще ответить выгнать выражение. Кидать банк металл ныне.","estimatedTime":"2 weeks","previewFileId":"ac48f495-a0cc-4b6f-869c-eab42b02c46c","createdByUserId":"6065767d-996a-4057-800d-b70b49a1633f"}'

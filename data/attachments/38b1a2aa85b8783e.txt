@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c49bf14a-3ba2-4600-89bb-95628db68a9a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjAzOjQxLjM3OTQxNCIsInVzZXJfaWQiOiI4YTE2OGRjYi00ZjVhLTQzMGQtYmNjMy1hOWUwZTk5NTgzZjgifQ.ppvaMOMMfFV0BliN6PQnUnw1AVsWWHjDf9QRkjJdIIE' \
+  -H 'content-length: 327' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Коммунизм угодный избегать деньги новый а рис возможно.","maxScore":74,"minScore":25,"description":"Магазин крутой художественный поговорить выразить секунда. Банк табак песня.","estimatedTime":"1 weeks"}'
