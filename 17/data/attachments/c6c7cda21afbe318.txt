@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIzOjA2OjA5LjEzMDU4MCIsInVzZXJfaWQiOiIyNjExMmRkOC0zMzBlLTRjY2ItYThjZS1lOWY3MjM3MjljMjMifQ.Vpm26oVH03aie-6T43AmW2ds1MXSiwXSsSbyX3Jro9A' \
+  -H 'content-length: 633' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Необычный белье сохранять очутиться.","maxScore":70,"minScore":24,"description":"Порода костер очко падать порядок каюта обида. Слишком термин бабочка палка мягкий.\nСлавный хлеб аллея вывести соответствие поговорить четыре. Граница интернет витрина деньги поставить тысяча издали.","estimatedTime":"5 weeks","previewFileId":"37f44969-1044-4c26-be42-43e4598bf86f","createdByUserId":"26112dd8-330e-4ccb-a8ce-e9f723729c23"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIzOjA2OjA2LjY2ODU1NiIsInVzZXJfaWQiOiI1NjY5YTRkMC1lOWNiLTQ1YWYtYTY4Ni01NTczN2YyZDJhNjUifQ.HCR52lx0Ez9DeJ58Cpmz2hm9E2dTTHJsoLIOsU_VXys' \
+  -H 'content-length: 457' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Задрать тюрьма привлекать.","maxScore":80,"minScore":16,"description":"Зима ботинок порода манера.\nДаль господь изменение сустав. Металл призыв исследование наступать советовать провал.","estimatedTime":"9 weeks","previewFileId":"2224aedd-86a1-4a80-8b80-ffc927169786","createdByUserId":"5669a4d0-e9cb-45af-a686-55737f2d2a65"}'

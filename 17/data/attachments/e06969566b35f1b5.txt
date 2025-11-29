@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=921b4ad7-70e3-45f6-b13a-c8c2bc0e6dc2
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=921b4ad7-70e3-45f6-b13a-c8c2bc0e6dc2
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:48 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:23 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 83135778-3159-4be2-b761-640ab5ab27f3
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Фонарик неожиданно разуметься тюрьма.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Еврейский головка материя основание ломать. Назначить зима место вздрагивать правильный багровый остановить. Плясать дрогнуть кожа ныне секунда.
+Нож невозможно прежний а.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     FILES_ASSERTIONS:files.py:63 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to fff61c28-d101-4e73-b65b-76c605953770
+INFO     BASE_ASSERTIONS:base.py:35 Check that "url" equals to http://localhost:8000/static/tests/861a256d-8df6-4ca8-b735-20451a7e2308.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "filename" equals to 861a256d-8df6-4ca8-b735-20451a7e2308.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:38 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 921b4ad7-70e3-45f6-b13a-c8c2bc0e6dc2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "email" equals to ladislavsobolev@example.net
+INFO     BASE_ASSERTIONS:base.py:35 Check that "last_name" equals to Шубина
+INFO     BASE_ASSERTIONS:base.py:35 Check that "first_name" equals to Онуфрий
+INFO     BASE_ASSERTIONS:base.py:35 Check that "middle_name" equals to Лукия
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

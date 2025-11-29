@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIzOjA2OjA2LjA4MTc3MSIsInVzZXJfaWQiOiI5MjFiNGFkNy03MGUzLTQ1ZjYtYjEzYS1jOGMyYmMwZTZkYzIifQ.Pd-oJPFZi1dXFM0BQ0Wa8CewdLmRPJfmhFOLygaEB4I' \
+  -H 'content-length: 581' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Фонарик неожиданно разуметься тюрьма.","maxScore":60,"minScore":9,"description":"Еврейский головка материя основание ломать. Назначить зима место вздрагивать правильный багровый остановить. Плясать дрогнуть кожа ныне секунда.\nНож невозможно прежний а.","estimatedTime":"7 weeks","previewFileId":"fff61c28-d101-4e73-b65b-76c605953770","createdByUserId":"921b4ad7-70e3-45f6-b13a-c8c2bc0e6dc2"}'

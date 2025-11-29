@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIzOjA2OjA5LjcxNjA1NCIsInVzZXJfaWQiOiI5NzBkMzk2Ni1kNThhLTQwZjktYWNkNS1iNGVlNzAyNzgxOTAifQ.kVbj9T_ecTj2JVzVWVd7-9ijEj9uaxgj-4pUnpxho-s' \
+  -H 'content-length: 595' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Головной покидать мальчишка исполнять тысяча солнце блин спешить.","maxScore":64,"minScore":28,"description":"Фонарик угроза заявление что танцевать. Добиться плод изображать спасть. Возникновение сохранять карандаш потрясти приятель написать роса некоторый.","estimatedTime":"10 weeks","previewFileId":"b9eba1bf-5f5f-400d-828d-71e1bbe6df93","createdByUserId":"970d3966-d58a-40f9-acd5-b4ee70278190"}'

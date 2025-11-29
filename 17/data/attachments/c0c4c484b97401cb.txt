@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIzOjA2OjA4LjQ5MDUwNCIsInVzZXJfaWQiOiJhMTMzYTM4My00ODg2LTRmZjMtYTg0YS1mZjRiZGZmMTgwOGIifQ.19UvZS1OM8qIevQikqu_xdK5v_TtDr8B1alVLkjOw0M' \
+  -H 'content-length: 596' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Смеяться лететь совет интернет.","maxScore":96,"minScore":12,"description":"Казнь приятель порода о новый. Вряд очко скрытый армейский сходить аж. Ягода уничтожение следовательно число.\nПлод труп команда левый цель сутки исследование. Район издали лапа покидать.","estimatedTime":"8 weeks","previewFileId":"fe4bef9e-b638-4b96-8b52-ea23d32a9f9e","createdByUserId":"a133a383-4886-4ff3-a84a-ff4bdff1808b"}'

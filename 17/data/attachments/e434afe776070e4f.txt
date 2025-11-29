@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIzOjA2OjA3LjkwNjcyOSIsInVzZXJfaWQiOiJkMGFhY2ZiMS0xZjk5LTQ4MWUtODA2Yi0zYWQ5NjFiZDAwOTUifQ.6drCr_ZQJV1ET5BoIUW0qcVQDNmO0QiyA4D7QiKXcz4' \
+  -H 'content-length: 516' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Приятель а тута.","maxScore":54,"minScore":17,"description":"Счастье секунда коробка одиннадцать остановить применяться свежий. Низкий миф перебивать запустить. Затянуться аллея развитый покидать господь термин сынок.","estimatedTime":"7 weeks","previewFileId":"d7243b4f-62d5-4479-a695-4cfcfa13504d","createdByUserId":"d0aacfb1-1f99-481e-806b-3ad961bd0095"}'
