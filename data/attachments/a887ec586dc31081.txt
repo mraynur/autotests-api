@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/6fce80c8-246d-43b6-8caa-86accfb80e96
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/6fce80c8-246d-43b6-8caa-86accfb80e96
+INFO     BASE_ASSERTIONS:base.py:17 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:68 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 6fce80c8-246d-43b6-8caa-86accfb80e96
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Граница расстройство советовать иной цвет песня сверкающий.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 8459cf4b-64a9-4878-8ba7-9c7c484ccaa2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 74
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 89
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Роса пятеро заплакать правильный издали беспомощный тысяча. Боец рот ученый пища тревога рассуждение горький. Трясти за привлекать роскошный цвет ныне.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

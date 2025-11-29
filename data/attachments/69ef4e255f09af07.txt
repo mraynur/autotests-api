@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjE4LjQ4ODkwOCIsInVzZXJfaWQiOiI3YWYwNjViMC1iM2IzLTQ5OTktOGY0NC1iNzNjZjkzYjY1MjUifQ.wPKq_4qGyvwEqXjFFgeuO6uqnYkoclj6Yg7rhc-N5S8' \
+  -H 'content-length: 475' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пропадать пространство господь место отдел.","maxScore":71,"minScore":5,"description":"Новый порт место помимо космос салон. Спорт помолчать блин армейский адвокат. Запретить видимо анализ точно.","estimatedTime":"10 weeks","previewFileId":"b5b3baaa-1d07-4f01-bee3-e3cf47e4f07f","createdByUserId":"7af065b0-b3b3-4999-8f44-b73cf93b6525"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjIxLjA4MDkyNiIsInVzZXJfaWQiOiIzMTkwMzIzZS1jOGNmLTRlZTAtYTIyNC02M2Q3NTE3NjZiNDYifQ.s43VVpMs6OBnnt-oO0QQPyz5zJGKd_5vmPxv-LUCe_w' \
+  -H 'content-length: 503' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Протягивать тюрьма деньги решетка добиться.","courseId":"b70fbb5b-eb1f-47ba-b97a-0f9693f28bde","maxScore":57,"minScore":20,"orderIndex":57,"description":"Издали печатать шлем следовательно. Смелый голубчик вздрогнуть изображать забирать. Горький жить хотеть аж потянуться школьный валюта рассуждение.","estimatedTime":"9 weeks"}'

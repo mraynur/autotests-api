@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjE5LjYyNjU4MiIsInVzZXJfaWQiOiI5YTQzODFhYy0xMzJjLTQ1M2ItOTc4OS01OTAyMThjYjAzNDUifQ.0yQAwt7qfivSNmsX7--wfFIbTsU6m4Vv4KUN832L7t8' \
+  -H 'content-length: 558' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Темнеть дьявол слишком мера деловой ход крыса неожиданный.","maxScore":51,"minScore":15,"description":"Левый тревога очко правление жестокий развитый уронить валюта.\nРис плясать вскакивать низкий увеличиваться. Перебивать торговля около о.","estimatedTime":"10 weeks","previewFileId":"fa7bf411-eab4-4ab9-87b2-eeeef3424f57","createdByUserId":"9a4381ac-132c-453b-9789-590218cb0345"}'

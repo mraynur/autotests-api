@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjIyLjI1NDYzNCIsInVzZXJfaWQiOiJiN2FmNjRlOS1lNDZmLTQzZDgtYTE2Yy1mZWY0MzlmM2MwZjAifQ.r1l3Qt7KbKv1BMCFDvHiiOrLG3wlcLboE-8Cg7uVbF4' \
+  -H 'content-length: 525' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Каюта неудобно космос рассуждение вчера добиться трясти.","maxScore":59,"minScore":9,"description":"Прелесть пятеро пропаганда угол. Темнеть висеть неправда прошептать освободить салон. Правление армейский процесс палата.","estimatedTime":"5 weeks","previewFileId":"b041d408-4287-46ed-bb81-2824505fe9a4","createdByUserId":"b7af64e9-e46f-43d8-a16c-fef439f3c0f0"}'

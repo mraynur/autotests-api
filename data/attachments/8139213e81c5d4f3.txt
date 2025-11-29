@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjIzLjE2Mzc5MSIsInVzZXJfaWQiOiIyZTYyZGI4OS1hNjI2LTRkYjMtYWUwNi0wNmQ2NzhiNjk1MzUifQ.rfkO1mZEr522nxxSi6poeyWYqDLBXCPy0p5K6QAogPI' \
+  -H 'content-length: 473' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Поговорить приятель жестокий.","courseId":"d589f726-00e7-49a6-9ed5-a3e1b2164c66","maxScore":97,"minScore":13,"orderIndex":23,"description":"Затянуться невозможно медицина выбирать затянуться. Проход набор означать умирать вывести тута умирать. Указанный кидать сбросить цель медицина.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4ac5759f-ed7a-44c5-9078-c40d3d402bc8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjE5Ljg5ODM3NSIsInVzZXJfaWQiOiI0MDI5NTQyZS00NTExLTRjOWMtYmU2Mi1jY2ZlOWMxYmFlN2QifQ.3EUELdHEJO8qJH3YE50k6WaPR5g1810oXkoVTWvBxLI' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Прежде приятель светило появление.","maxScore":83,"minScore":23,"description":"Присесть носок дурацкий пространство вывести волк. Коллектив художественный господь стакан военный увеличиваться район.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjIzLjE2Mzc5MSIsInVzZXJfaWQiOiIyZTYyZGI4OS1hNjI2LTRkYjMtYWUwNi0wNmQ2NzhiNjk1MzUifQ.rfkO1mZEr522nxxSi6poeyWYqDLBXCPy0p5K6QAogPI' \
+  -H 'content-length: 557' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Выраженный зачем помолчать падаль рабочий остановить.","maxScore":92,"minScore":15,"description":"Темнеть подробность девка шлем салон потом. Очко освобождение применяться запустить миг. Механический вскинуть госпожа механический господь.","estimatedTime":"5 weeks","previewFileId":"30eb16c0-4640-41ec-93e2-ef99d2d9274a","createdByUserId":"2e62db89-a626-4db3-ae06-06d678b69535"}'

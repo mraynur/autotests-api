@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjIxLjA4MDkyNiIsInVzZXJfaWQiOiIzMTkwMzIzZS1jOGNmLTRlZTAtYTIyNC02M2Q3NTE3NjZiNDYifQ.s43VVpMs6OBnnt-oO0QQPyz5zJGKd_5vmPxv-LUCe_w' \
+  -H 'content-length: 547' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дремать промолчать демократия призыв.","maxScore":60,"minScore":12,"description":"Скрытый налево палата ночь жить граница. Банда зато холодно висеть успокоиться. Сверкать светило чувство. Затянуться что аллея один райком о вытаскивать.","estimatedTime":"1 weeks","previewFileId":"15ad80d6-4aea-40bf-a6e1-5e51fff10e61","createdByUserId":"3190323e-c8cf-4ee0-a224-63d751766b46"}'

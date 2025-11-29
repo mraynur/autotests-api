@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjE5Ljg5ODM3NSIsInVzZXJfaWQiOiI0MDI5NTQyZS00NTExLTRjOWMtYmU2Mi1jY2ZlOWMxYmFlN2QifQ.3EUELdHEJO8qJH3YE50k6WaPR5g1810oXkoVTWvBxLI' \
+  -H 'content-length: 634' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вперед ярко устройство цепочка провинция упор.","maxScore":51,"minScore":21,"description":"Издали куча триста спалить. Спалить очутиться кпсс посвятить девка свежий секунда. Ребятишки салон решение хотеть коричневый сутки миг радость.\nПолностью вздрогнуть успокоиться эпоха слать.","estimatedTime":"10 weeks","previewFileId":"2ac697b4-98e9-40d0-a882-c7ecf9e0c938","createdByUserId":"4029542e-4511-4c9c-be62-ccfe9c1bae7d"}'

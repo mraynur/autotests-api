@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDIyOjE1OjIxLjk4MTgxNiIsInVzZXJfaWQiOiJkOWM4YWUwYy00MTMwLTRhMmQtYTZkYy03NTU1YTAzNTYwZmQifQ.2kyKKGonaj8jS5MtlY3g5GgT2_XoxBDT6nysG9AZbY8' \
+  -H 'content-length: 645' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мелькнуть грудь единый терапия грустный доставать.","maxScore":89,"minScore":20,"description":"Затянуться умирать валюта редактор мусор ребятишки написать. Сходить сынок палата.\nЗаплакать деньги налево мгновение славный человечек запеть. Точно пол штаб каюта витрина число пространство.","estimatedTime":"4 weeks","previewFileId":"df0bc7d3-d16f-4713-a985-fd4e05965ad9","createdByUserId":"d9c8ae0c-4130-4a2d-a6dc-7555a03560fd"}'
