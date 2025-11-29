@@ -74,8 +74,8 @@ jobs:
           path: gh-pages
 
       - name: Copy history from gh-pages to allure-results
-      - if: always()
-      - run: |
+        if: always()
+        run: |
           mkdir -p allure-results/history
           if [ -d "gh-pages/history" ]; then
             cp -R gh-pages/history/* allure-results/history/
