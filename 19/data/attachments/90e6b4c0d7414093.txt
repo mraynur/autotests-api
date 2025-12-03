@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjQ2OjU4LjUwOTI0MCIsInVzZXJfaWQiOiI4MmEwYWE4Ny04NjVhLTQ4ZjEtOTM2Mi03Yzg1NDEzODk1MmMifQ.ZKjIujrFHb-Y0rrD2RUZ7UUvn-9_osp3Z2F7EWqF0l8' \
+  -H 'content-length: 601' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Опасность спасть собеседник за место.","maxScore":80,"minScore":28,"description":"Зачем зеленый основание коричневый беспомощный смеяться протягивать костер. Тысяча недостаток аж дыхание вскакивать полностью мелькнуть. Поговорить художественный умирать материя.","estimatedTime":"8 weeks","previewFileId":"f68d3cba-c0f2-480b-b1ec-982f55da2845","createdByUserId":"82a0aa87-865a-48f1-9362-7c854138952c"}'

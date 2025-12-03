@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjQ2OjU4LjUwOTI0MCIsInVzZXJfaWQiOiI4MmEwYWE4Ny04NjVhLTQ4ZjEtOTM2Mi03Yzg1NDEzODk1MmMifQ.ZKjIujrFHb-Y0rrD2RUZ7UUvn-9_osp3Z2F7EWqF0l8' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Освобождение очередной табак аж.","courseId":"aafae14d-e0c9-41e9-9e20-dcf1f4073805","maxScore":63,"minScore":20,"orderIndex":8,"description":"Аллея болото вряд. Райком разуметься выраженный карман. Вздрогнуть второй дьявол рай.","estimatedTime":"3 weeks"}'

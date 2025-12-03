@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjQ2OjU3LjI4OTgzNyIsInVzZXJfaWQiOiJjMDY3ODdiZS00MGIyLTQ5ZTQtOWUzYy05MWVlNjIxNTQyOGEifQ.VKBvhJ-tZMXeDgMzLsTSO6zxsPJH-vC_PFnsOx3srWo' \
+  -H 'content-length: 592' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Передо сынок ребятишки миг посвятить.","maxScore":84,"minScore":12,"description":"Написать танцевать хотеть крыса отметить запеть князь. Пробовать цепочка горький мальчишка пища космос место посидеть. Неожиданно рай достоинство премьера голубчик промолчать.","estimatedTime":"10 weeks","previewFileId":"a98ffc81-0c45-472d-abde-3e8889ecde41","createdByUserId":"c06787be-40b2-49e4-9e3c-91ee6215428a"}'

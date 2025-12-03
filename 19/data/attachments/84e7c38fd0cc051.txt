@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjQ2OjU5LjEwMTYwNyIsInVzZXJfaWQiOiIzYzM0NDg1Zi05YjYwLTQxNTgtODIwMi0yN2Y1ZGE3YmFkODYifQ.szfW1SI3vBOfrgKNVKdOLXv1OvCStAIHgPui2SAtJMc' \
+  -H 'content-length: 561' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Задрать термин наслаждение мусор запретить.","maxScore":88,"minScore":27,"description":"Витрина кольцо вздрогнуть похороны правление вскакивать. Инструкция зато печатать отъезд. Дальний манера госпожа прошептать инструкция невозможно левый.","estimatedTime":"6 weeks","previewFileId":"788ecd51-e8f4-4ab1-a7c0-77c1bae87a68","createdByUserId":"3c34485f-9b60-4158-8202-27f5da7bad86"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjQ2OjU3Ljg3NzEwNSIsInVzZXJfaWQiOiIzNjJmOTM1Mi01MDkzLTQ0NjMtYmM1NS02MmNlNzhlMWRjODgifQ.6ztRn2MrNH5qkeAMYCFklMQp-biiqg4Xf9WcduVyUFQ' \
+  -H 'content-length: 653' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Лапа через постоянный потом спешить сопровождаться торговля.","maxScore":71,"minScore":15,"description":"Цель витрина приятель ручей вперед зато угол. Кольцо намерение полоска через боец ныне помимо. Хлеб головной бабочка коллектив. Непривычный выдержать разуметься избегать печатать мягкий.","estimatedTime":"8 weeks","previewFileId":"ccf4bfa5-1bf6-4548-80fd-0b0d71b269a6","createdByUserId":"362f9352-5093-4463-bc55-62ce78e1dc88"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjQ2OjU2LjA3OTI5NSIsInVzZXJfaWQiOiJhYzVmN2Q0NS1hYTJmLTQxN2QtYWMyMC04YmM4MWUxZDM0MjAifQ.oyPPUebm1OS0uTE_aHfPc8VIuH7kf2Ui_a-LuJW2_gA' \
+  -H 'content-length: 468' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Гулять конференция коллектив рота.","maxScore":62,"minScore":9,"description":"Слать привлекать около научить. Палата конференция монета растеряться. Угроза нажать мучительно фонарик настать.","estimatedTime":"10 weeks","previewFileId":"7a5df988-b899-4973-9501-f176dcdb0063","createdByUserId":"ac5f7d45-aa2f-417d-ac20-8bc81e1d3420"}'
