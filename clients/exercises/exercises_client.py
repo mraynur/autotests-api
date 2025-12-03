@@ -2,6 +2,7 @@ import allure
 
 from httpx import Response
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from clients.exercises.exercises_schema import GetExercisesQuerySchema, CreateExerciseRequestSchema, \
     UpdateExercisesRequestSchema, GetExercisesResponseSchema, CreateExerciseResponseSchema, GetExerciseResponseSchema, \
@@ -15,6 +16,7 @@ class ExercisesClient(APIClient):
     """
 
     @allure.step("Get exercises")
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Метод получения списка заданий.
@@ -24,6 +26,7 @@ class ExercisesClient(APIClient):
         return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))
 
     @allure.step("Create exercises")
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         Метод создания задания.
@@ -36,6 +39,7 @@ class ExercisesClient(APIClient):
         )
 
     @allure.step("Get exercise by id: {exercise_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод получения задания.
@@ -45,6 +49,7 @@ class ExercisesClient(APIClient):
         return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     @allure.step("Update exercises by id: {exercise_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     def update_exercise_api(self, exercise_id: str, request: UpdateExercisesRequestSchema) -> Response:
         """
         Метод обновления задания.
@@ -58,6 +63,7 @@ class ExercisesClient(APIClient):
         )
 
     @allure.step("Delete exercises by id: {exercise_id}")
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод удаления задания.
