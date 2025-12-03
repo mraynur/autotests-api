@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjQ4LjEwODA5NSIsInVzZXJfaWQiOiI5N2YxYWU2MC02NDQwLTRlNGQtOTE5Ny04MjA3ZjlmN2JiMTEifQ.zzW6Qp4pdCVzUEokNHsPp4hfjTvYpDJOasynZv4n4XM' \
+  -H 'content-length: 584' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сбросить место ярко заработать.","maxScore":81,"minScore":17,"description":"Спешить разнообразный спорт запустить умолять. Слать расстегнуть полевой очутиться. Функция вперед заплакать избегать отметить. Багровый проход носок рабочий снимать вскакивать.","estimatedTime":"9 weeks","previewFileId":"4e73e6bd-412e-443e-8344-e37b06e50ffb","createdByUserId":"97f1ae60-6440-4e4d-9197-8207f9f7bb11"}'

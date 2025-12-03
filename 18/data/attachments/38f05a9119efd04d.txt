@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjUwLjM1MzQ5MyIsInVzZXJfaWQiOiI0MDE4MTYyNi1iZWZhLTQ0YzktYjViYi0xZmQwNDQyMTU0OTcifQ.iZc5Ta-URwAbUXmlRBAe8jWAnaHKFeU6dnHJhm5V_OI' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Правый помимо падать болото.","courseId":"a8141101-ccd2-4c6f-9a62-13c58b3986ff","maxScore":51,"minScore":29,"orderIndex":12,"description":"Порядок выгнать космос команда рот провал. Порядок пересечь мгновение куча мучительно разуметься банда пища.","estimatedTime":"6 weeks"}'

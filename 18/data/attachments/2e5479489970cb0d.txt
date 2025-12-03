@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjQ3LjAzMDQ0MiIsInVzZXJfaWQiOiJlZmRjOWIxNi04YTIwLTQxYzEtYjEyOC1mNjVmODAzOTNiMzkifQ.raeBPdLzUN_CkTV4hHnDM_uaXECr7ePPNbZKw73B6lE' \
+  -H 'content-length: 597' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ответить пятеро лететь вздрагивать грустный еврейский.","maxScore":55,"minScore":4,"description":"Трубка затянуться палец задрать очко космос. Засунуть карандаш казнь господь ботинок видимо протягивать. Встать полевой адвокат интеллектуальный шлем изображать.","estimatedTime":"7 weeks","previewFileId":"9e6025c5-3023-4234-8c0d-8a454502985a","createdByUserId":"efdc9b16-8a20-41c1-b128-f65f80393b39"}'

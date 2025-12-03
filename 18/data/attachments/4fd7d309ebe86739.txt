@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjUwLjM1MzQ5MyIsInVzZXJfaWQiOiI0MDE4MTYyNi1iZWZhLTQ0YzktYjViYi0xZmQwNDQyMTU0OTcifQ.iZc5Ta-URwAbUXmlRBAe8jWAnaHKFeU6dnHJhm5V_OI' \
+  -H 'content-length: 483' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Миг желание мягкий редактор палка поймать князь.","maxScore":73,"minScore":13,"description":"Неправда жестокий район неправда армейский очко зима.\nПарень вывести страсть находить магазин смертельный.","estimatedTime":"4 weeks","previewFileId":"28390f9c-4b83-43cc-8658-3ce4bd0e3d1c","createdByUserId":"40181626-befa-44c9-b5bb-1fd044215497"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjQ5LjIyODEyMSIsInVzZXJfaWQiOiIzNzM3NzM4OS01NDhiLTRmODItODYzYS0yNGFmYjA3NTA4YjEifQ.xURY4l7NafcZTzc6ZT4Qhh4AkTXn-HVJwMSxEhe8AAI' \
+  -H 'content-length: 520' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Покинуть песня зеленый эпоха материя ставить.","maxScore":100,"minScore":27,"description":"Коробка передо шлем поколение. Засунуть вытаскивать порог разнообразный. Научить место адвокат. Присесть некоторый валюта космос.","estimatedTime":"9 weeks","previewFileId":"a42963e5-22a2-414d-987e-cbb91f6aa46f","createdByUserId":"37377389-548b-4f82-863a-24afb07508b1"}'

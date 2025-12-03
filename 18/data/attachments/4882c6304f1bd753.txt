@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjUxLjQ3ODMwMiIsInVzZXJfaWQiOiIzZWQwM2EzMy0yYWEwLTRhOTctODg4Zi02M2U4ZGExMzE3MTMifQ.F9qbudPwnw5FxiLVAsZuWMlivSZdmqa5ki6Va6EvFKY' \
+  -H 'content-length: 491' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Освобождение дошлый выраженный а.","maxScore":75,"minScore":28,"description":"Банда покинуть четко вчера. Плясать результат советовать пятеро. Результат достоинство потянуться ягода вздрагивать выразить.","estimatedTime":"1 weeks","previewFileId":"b73ba73a-e6ea-4104-b3ac-ed68dc250457","createdByUserId":"3ed03a33-2aa0-4a97-888f-63e8da131713"}'

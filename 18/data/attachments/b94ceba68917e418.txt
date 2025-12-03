@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjQ4LjM2NzM5NiIsInVzZXJfaWQiOiJkOWM1ZWY3ZC01YjExLTRhMzAtOGNlYi0xNjM3YjAzMTk1ZDkifQ.eXdZoAFAwg0prztRy4sWhIyAV_1sPhuEjAOrnDpq4uA' \
+  -H 'content-length: 523' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Неправда проход пламя протягивать граница.","maxScore":86,"minScore":15,"description":"Недостаток штаб кузнец аллея деловой дурацкий. Лететь очередной горький результат тута носок опасность угол. Направо скользить анализ.","estimatedTime":"5 weeks","previewFileId":"f39f3f20-852d-4eb9-9d8d-be4e676c3904","createdByUserId":"d9c5ef7d-5b11-4a30-8ceb-1637b03195d9"}'

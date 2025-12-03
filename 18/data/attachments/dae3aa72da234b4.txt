@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjUwLjYxMjE4MiIsInVzZXJfaWQiOiJkMTQwOTkxMS0zMzM2LTQxYzMtOWQ3Zi1jODcyYmY4ZTc5YzYifQ.to3yZi_b2zPq5jJgWhzbQgUVLTymv1xLbyKP8L_83Js' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Отъезд прежде пастух.","maxScore":55,"minScore":22,"description":"Прошептать уничтожение строительство деньги. Посидеть заложить число изображать анализ число.","estimatedTime":"8 weeks","previewFileId":"3cc27e71-ca70-4979-b864-44ce97205f85","createdByUserId":"d1409911-3336-41c3-9d7f-c872bf8e79c6"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/43922baa-6727-426b-80e4-3d5cd52b03f3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDEwOjM1OjQ4LjM2NzM5NiIsInVzZXJfaWQiOiJkOWM1ZWY3ZC01YjExLTRhMzAtOGNlYi0xNjM3YjAzMTk1ZDkifQ.eXdZoAFAwg0prztRy4sWhIyAV_1sPhuEjAOrnDpq4uA' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Издали народ поезд миф слишком заведение выражаться.","maxScore":79,"minScore":29,"description":"Шлем ботинок бочок пространство способ зарплата полностью фонарик. Смеяться коммунизм неправда полевой равнодушный конференция.","estimatedTime":"4 weeks"}'
